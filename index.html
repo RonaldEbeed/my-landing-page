@@ -1,105 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Premium Deals | Free Worldwide Shipping</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background-color: #3b5998;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    .product-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 20px;
-      gap: 20px;
-    }
-    .product-card {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      width: 250px;
-      text-align: center;
-      padding: 15px;
-    }
-    .product-card img {
-      width: 100%;
-      height: auto;
-      border-radius: 5px;
-    }
-    .product-card h3 {
-      font-size: 16px;
-      margin: 10px 0;
-    }
-    .btn-buy {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 15px;
-      background-color: #4CAF50;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .btn-buy:hover {
-      background-color: #45a049;
-    }
-  </style>
-
-  <!-- Facebook Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', 'YOUR_PIXEL_ID'); 
-    fbq('track', 'PageView');
-  </script>
-  <noscript>
-    <img height="1" width="1" 
-    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
-  </noscript>
-  <!-- End Facebook Pixel Code -->
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+        }
+        .product-card {
+            background: white;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .btn-buy {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn-buy:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
 
 <header>
-  <h1>Premium Deals with Free Worldwide Shipping</h1>
+    <h1>Shop Our Top Picks</h1>
+    <p>Free international shipping on all products</p>
 </header>
 
 <div class="product-container">
-  <div class="product-card">
-    <img src="https://thumbs1.ebaystatic.com/d/l225/pict/314478160711_1.jpg" alt="Tactical Gun Cleaning Kit">
-    <h3>Universal Tactical Gun Cleaning Kit 28pcs</h3>
-    <a href="https://www.ebay.com/itm/314478160711" class="btn-buy" target="_blank">Buy Now on eBay</a>
-  </div>
-  <div class="product-card">
-    <img src="https://thumbs1.ebaystatic.com/d/l225/pict/315366315801_1.jpg" alt="3D Crystal Puzzle Set">
-    <h3>3D Crystal Puzzle Brain Teaser Set – 3 Pack</h3>
-    <a href="https://www.ebay.com/itm/315366315801" class="btn-buy" target="_blank">Buy Now on eBay</a>
-  </div>
-  <div class="product-card">
-    <img src="https://thumbs1.ebaystatic.com/d/l225/pict/314124371475_1.jpg" alt="XHP90.2 Tactical Flashlight">
-    <h3>Powerful XHP90.2 LED Rechargeable Flashlight</h3>
-    <a href="https://www.ebay.com/itm/314124371475" class="btn-buy" target="_blank">Buy Now on eBay</a>
-  </div>
+    <div class="product-card">
+        <img src="https://i.ebayimg.com/images/g/o5EAAOSwCJBj~3nb/s-l500.jpg" alt="Product 1">
+        <h3>Vintage Style PU Leather Crossbody Bag</h3>
+        <a href="https://www.ebay.com/itm/314478160711" class="btn-buy" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.ebayimg.com/images/g/F2EAAOSw03pkFYKM/s-l500.jpg" alt="Product 2">
+        <h3>Retro Shoulder Bag with Wide Strap</h3>
+        <a href="https://www.ebay.com/itm/315366315801" class="btn-buy" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.ebayimg.com/images/g/G2UAAOSwjWxl2PI~/s-l500.jpg" alt="Product 3">
+        <h3>Women's Quilted PU Leather Handbag</h3>
+        <a href="https://www.ebay.com/itm/314124371475" class="btn-buy" target="_blank">Buy Now</a>
+    </div>
 </div>
 
 </body>
 </html>
+      
