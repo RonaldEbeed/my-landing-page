@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #3b5998;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .product-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .product-card {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+        .btn-buy {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .btn-buy:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID'); 
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" 
+        src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+
+<header>
+    <h1>Premium Products for You</h1>
+    <p>Discover our best products with free worldwide shipping.</p>
+</header>
+
+<div class="product-container">
+    <div class="product-card">
+        <img src="https://thumbs1.ebaystatic.com/d/l225/pict/314478160711_1.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <a href="https://www.ebay.com/itm/314478160711" class="btn-buy" target="_blank">Buy Now on eBay</a>
+    </div>
+    <div class="product-card">
+        <img src="https://thumbs1.ebaystatic.com/d/l225/pict/315366315801_1.jpg" alt="Product 2">
+        <h3>Product 2</h3>
+        <a href="https://www.ebay.com/itm/315366315801" class="btn-buy" target="_blank">Buy Now on eBay</a>
+    </div>
+    <div class="product-card">
+        <img src="https://thumbs1.ebaystatic.com/d/l225/pict/314124371475_1.jpg" alt="Product 3">
+        <h3>Product 3</h3>
+        <a href="https://www.ebay.com/itm/314124371475" class="btn-buy" target="_blank">Buy Now on eBay</a>
+    </div>
+</div>
+
+</body>
+</html>
+ 
+
+ 
